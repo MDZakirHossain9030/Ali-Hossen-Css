@@ -1,0 +1,163 @@
+/*icon download Ali hossain = 12*/
+/* i{
+    color:#fff;
+    background:orange;
+    padding:15px;
+    border-radius:10px;
+    display:flex;
+} */
+
+
+
+
+/*display property Ali hossain = 16 */
+/*block mean full screen, inline-block mean only text block, none mean text heddien*/
+/* .name{
+    background:red;
+    display:block;
+    display:inline-block;
+    display:none;
+} */
+
+
+
+
+
+/*css position Ali hossain = 17*/
+/*position:static default / relative/ absolute/ sticky*/
+
+/* body{
+    margin:0;
+    padding:0;
+} */
+
+ /*div{
+    background:aqua;
+    width:200px;
+    height:200px;
+    margin:0;
+    /* margin-left:20px;
+    margin-top:20px; 
+ }*/
+
+
+/*relative er vetore absolute korte hoy আত্মীয় স্বজনের মত absolute হলো relative এর উপর dippanded করে*/
+/* .main{
+    position:relative;
+    top:20px;
+    left: 50px;
+} */
+
+/*relative এর ভেতরে absolute দিলে যেকোনো position এ নেওয়া যায় যেমন child*/
+/* .child{
+    position:absolute;
+    background:blue;
+    width:30px;
+    height:30px;
+    right:0;
+    bottom:0;
+    left:0;
+} */
+
+/* .sec{
+    background:blueviolet;
+} */
+
+/*position:fixed mean একই অবস্থানে সব সময় বসে থাকবে scroll করলেও নড়বে নে*/
+/*position:sticky meat যেমন menubar page এর মধ্যে থাকবে scroll করলে 
+margin-left:0
+margin-top:0
+দিলে সে তার উপরে অবস্থানে গিয়ে বসে যাবে এবং পুরো পেইজ নিচ দিয়ে চলে যাবে 
+আবার 
+margin-left:0
+margin-bottom:0
+দিলে সে তার নিচে অবস্থানে গিয়ে বসে যাবে এবং পুরো পেইজ উপর দিয়ে চলে যাবে */
+
+
+
+
+
+/*overflow:hidden Ali Hossain = 19 */
+/* div{
+    width:120px;
+    height:100px;
+    background: #c51a1a;
+    color:#3046d4;
+    padding:20px;
+    overflow:auto;
+} */
+
+
+
+
+
+/*box-sizing Ali Hossain = 31*/
+/* div{
+    width: 200px;
+    height:200px;
+    margin-bottom:20px;
+} */
+/*box-sizing না দিলে box এর বাহির সাইড দিয়ে  padding and border বাড়বে */
+/* .one{
+    background:red;
+    padding:20px;
+    border:10px solid black;
+} */
+
+/*box-sizing দিলে box এর ভেতর সাইড দিয়ে  padding and border কাজ করবে */
+/* .two{
+    background:blueviolet;
+    padding:20px;
+    border:10px solid black;
+    box-sizing:border-box;
+} */
+
+
+
+
+
+/*transform Ali Hossain = 33*/
+/* .one{
+    width:150px;
+    height:150px;
+    background:blueviolet;
+    padding:10px;
+    border:10px solid black;
+    box-sizing:border-box;
+    transition:all 2s;
+} */
+/* .one:hover{
+    transform:translate(25px, 20px);
+    transform:rotate(180deg);
+    transform:scale(1.2);
+    transform:skew(25deg);
+} */
+
+
+
+
+/*display:flex Ali Hossain = 36*/
+body{
+    font-family:arial;
+    margin:0;
+    background:rgb(206, 210, 210);
+}
+.child{
+    background:rgb(34, 162, 152);
+    color:white;
+    width:100%;
+    padding:20px;
+    margin-bottom:20px;
+}
+.child a{
+    background:orange;
+    color:white;
+    display:inline-block;
+    transition:0.5s;
+    padding:10px, 20px;
+    text-decoration:none;
+}
+.child a:hover{
+    background:tomato;
+    color:blue
+}
